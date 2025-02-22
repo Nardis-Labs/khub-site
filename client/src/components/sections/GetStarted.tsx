@@ -34,7 +34,7 @@ export default function GetStarted() {
                 <p className="text-muted-foreground mb-4">
                   Comprehensive guides and API references
                 </p>
-                <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full" onClick={() => window.open('https://github.com/Nardis-Labs/khub', '_blank')}>
                   View Docs
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -55,7 +55,7 @@ export default function GetStarted() {
                 <p className="text-muted-foreground mb-4">
                   Explore and contribute to the project
                 </p>
-                <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full" onClick={() => window.open('https://github.com/Nardis-Labs/khub', '_blank')}>
                   GitHub Repository
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -76,7 +76,7 @@ export default function GetStarted() {
                 <p className="text-muted-foreground mb-4">
                   Get up and running in minutes
                 </p>
-                <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full" onClick={() => window.open('https://github.com/Nardis-Labs/khub', '_blank')}>
                   Installation Guide
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>

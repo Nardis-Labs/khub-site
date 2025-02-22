@@ -1,12 +1,17 @@
 import { motion } from "framer-motion";
-import { Shield, Terminal, Database, Users } from "lucide-react";
+import { Shield, Terminal, Users, IdCard, AppWindow } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 const features = [
   {
     icon: Shield,
-    title: "Fine-Grained Access Control",
-    description: "Built-in ABAC authorization model for granular control over cluster operations"
+    title: "Fine-Grained Access Control and OAuth2 as a First Class Citizen",
+    description: "Built-in ABAC authorization model for granular control over cluster operations. Integration with OAuth2 providers for seamless authentication and SSO."
+  },
+  {
+    icon: AppWindow,
+    title: "Common K8s Actions with Guardrails",
+    description: "Manage scaling, rolling restarts, and other common Kubernetes runbooks with guardrails in place."
   },
   {
     icon: Terminal,
@@ -14,14 +19,9 @@ const features = [
     description: "Create and manage custom pod execution plugins for secure operations"
   },
   {
-    icon: Database,
-    title: "MySQL Topology Visualization",
-    description: "Automatically generate and document complex MySQL replication topologies"
-  },
-  {
     icon: Users,
     title: "Team-Centric Design",
-    description: "Enable platform teams to manage resources securely with minimal network exposure"
+    description: "Allow service teams to view and manage their own resources in a self-service manner, securely."
   }
 ];
 
@@ -39,6 +39,9 @@ export default function Features() {
           <h2 className="text-3xl font-bold mb-4">Core Features</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             KHub provides essential tools for secure Kubernetes management, from resource visualization to automated topology documentation.
+            <br />
+            <br />
+            Platform teams and service teams can use KHub to gain deep visibility into their Kubernetes clusters, while also being able to manage their own resources in a self-service manner.
           </p>
         </motion.div>
 

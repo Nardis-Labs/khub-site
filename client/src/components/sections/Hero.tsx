@@ -4,6 +4,10 @@ import { ArrowRight } from "lucide-react";
 import KubernetesIllustration from "../ui/k8s-animation";
 
 export default function Hero() {
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section className="pt-32 pb-16 relative overflow-hidden">
       <div className="container mx-auto px-4">
@@ -24,11 +28,11 @@ export default function Hero() {
             KHub is an open-source Kubernetes UI designed to run in-cluster, providing secure access to your control plane with minimal network exposure.
           </p>
           <div className="flex gap-4 justify-center">
-            <Button size="lg">
-              Get Started
+            <Button size="lg" onClick={() => scrollToSection('features')}>
+              Learn More
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline">
+            <Button size="lg" variant="outline" onClick={() => window.open('https://github.com/Nardis-Labs/khub', '_blank')}>
               View on GitHub
             </Button>
           </div>

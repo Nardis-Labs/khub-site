@@ -1,4 +1,4 @@
-import { SiGithub, SiGitlab } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -16,18 +16,8 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
+                <a href="https://github.com/Nardis-Labs/khub" className="text-sm text-muted-foreground hover:text-foreground">
                   Documentation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  API Reference
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Guides
                 </a>
               </li>
             </ul>
@@ -37,33 +27,13 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Community</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
+                <a href="https://github.com/Nardis-Labs/khub" className="text-sm text-muted-foreground hover:text-foreground">
                   GitHub
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Discord
                 </a>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="mt-12 pt-8 border-t flex items-center justify-between">
