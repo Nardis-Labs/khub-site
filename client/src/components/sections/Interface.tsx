@@ -9,22 +9,22 @@ const screenshots = [
   {
     title: "Dashboard Overview",
     description: "Comprehensive view of your Kubernetes cluster resources",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    image: "",
+  },
+  {
+    title: "Cluster Resource Deep Dive",
+    description: "Intuitive interface for viewing cluster resources",
+    image: "",
   },
   {
     title: "Resource Management",
-    description: "Intuitive interface for managing Kubernetes resources",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    description: "Take action with guardrails in place.",
+    image: "",
   },
   {
-    title: "MySQL Topology",
-    description: "Visualize complex MySQL replication relationships",
-    image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d",
-  },
-  {
-    title: "Pod Execution Interface",
-    description: "Secure interface for pod operations and executions",
-    image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97",
+    title: "Custom Exec Plugins",
+    description: "Create and run custom commands on your cluster's pods in a safe and secure manner.",
+    image: "",
   },
 ];
 
@@ -60,9 +60,9 @@ export default function Interface() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold mb-4">Interface Preview</h2>
+          <h2 className="text-3xl font-bold mb-4">Screenshots</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Take a look at KHub's intuitive interface designed for secure Kubernetes management
+            Take a look at KHub's intuitive interface designed for secure Kubernetes access by enterprise teams.
           </p>
         </motion.div>
 
@@ -122,12 +122,6 @@ export default function Interface() {
               />
             ))}
           </div>
-        </div>
-
-        <div className="mt-8 text-center">
-          <p className="text-sm text-muted-foreground">
-            * Screenshots are for illustration purposes
-          </p>
         </div>
       </div>
     </section>

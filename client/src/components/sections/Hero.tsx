@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import KubernetesIllustration from "../ui/k8s-animation";
 
 export default function Hero() {
   return (
@@ -33,12 +34,9 @@ export default function Hero() {
           </div>
 
           <div className="mt-16 relative">
-            <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent z-10" />
-            <img
-              src="https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9"
-              alt="Kubernetes Dashboard"
-              className="rounded-lg shadow-2xl"
-            />
+            <div className="max-w-4xl mx-auto">
+              <KubernetesIllustration />
+            </div>
           </div>
         </motion.div>
       </div>
