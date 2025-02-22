@@ -54,7 +54,7 @@ export default function Features() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Card>
+              <Card style={{minHeight: "260px"}}>
                 <CardHeader>
                   <feature.icon className="h-10 w-10 text-primary mb-4" />
                   <CardTitle>{feature.title}</CardTitle>

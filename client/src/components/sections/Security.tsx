@@ -46,6 +46,20 @@ export default function Security() {
             </div>
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="relative"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-primary/30 rounded-lg" />
+            <img
+              src="https://raw.githubusercontent.com/Nardis-Labs/khub-site/refs/heads/main/screenshots/security.png"
+              alt="Security Architecture"
+              className="rounded-lg shadow-xl relative z-10"
+            />
+          </motion.div>
         </div>
       </div>
     </section>
