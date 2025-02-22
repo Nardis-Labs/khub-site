@@ -9,22 +9,22 @@ const screenshots = [
   {
     title: "Dashboard Overview",
     description: "Comprehensive view of your Kubernetes cluster resources",
-    image: "",
+    image: "https://raw.githubusercontent.com/Nardis-Labs/khub-site/refs/heads/main/screenshots/dashboard.png",
   },
   {
     title: "Cluster Resource Deep Dive",
     description: "Intuitive interface for viewing cluster resources",
-    image: "",
+    image: "https://raw.githubusercontent.com/Nardis-Labs/khub-site/refs/heads/main/screenshots/resource-deep-dive.png",
   },
   {
     title: "Resource Management",
     description: "Take action with guardrails in place.",
-    image: "",
+    image: "https://raw.githubusercontent.com/Nardis-Labs/khub-site/refs/heads/main/screenshots/actions.png",
   },
   {
     title: "Custom Exec Plugins",
     description: "Create and run custom commands on your cluster's pods in a safe and secure manner.",
-    image: "",
+    image: "https://raw.githubusercontent.com/Nardis-Labs/khub-site/refs/heads/main/screenshots/execplugins.png",
   },
 ];
 
