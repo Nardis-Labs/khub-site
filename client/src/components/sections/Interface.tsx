@@ -78,7 +78,7 @@ export default function Interface() {
                           <img
                             src={screenshot.image}
                             alt={screenshot.title}
-                            className="rounded-lg object-cover w-full h-full"
+                            className="rounded-lg w-full h-full"
                           />
                         </div>
                         <h3 className="text-xl font-semibold mb-2">{screenshot.title}</h3>
